@@ -1,0 +1,1 @@
+{"dependencies":{"ws":"^8.18.0"},"description":"Standalone WebSocket proxy for the web Minecraft client (TCP + WS passthrough)","engines":{"node":">=16"},"main":"proxy.js","name":"mc-web-proxy","scripts":{"start":"node proxy.js"},"version":"1.0.0"}

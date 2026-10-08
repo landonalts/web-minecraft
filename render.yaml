@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: web-minecraft
+    runtime: node
+    buildCommand: npm install && curl -sL --http1.1 -A "Mozilla/5.0" -o frontend.zip https://files.catbox.moe/c31w8i.zip && unzip -o -q frontend.zip -d public && rm frontend.zip
+    startCommand: node proxy.js
+    plan: free
